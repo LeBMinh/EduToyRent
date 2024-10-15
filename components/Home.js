@@ -66,7 +66,7 @@ export default function Home() {
     >
       {item.soldOut && (
         <View style={styles.soldOutTagContainer}>
-          <Text style={styles.soldOutTag}>SOLD OUT</Text>
+          <Text style={styles.soldOutTag}>NOT AVAILABLE</Text>
         </View>
       )}
       <Image

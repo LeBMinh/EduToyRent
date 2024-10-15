@@ -83,7 +83,7 @@ export default function Detail({ route, navigation }) {
           <Text style={styles.toyDescription}>{toy.toyDescription}</Text>
           {toy.soldOut && (
             <View style={styles.soldOutTagContainer}>
-              <Text style={styles.soldOutTag}>SOLD OUT</Text>
+              <Text style={styles.soldOutTag}>NOT AVAILABLE</Text>
             </View>
           )}
         </View>
